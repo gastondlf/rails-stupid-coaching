@@ -1,0 +1,15 @@
+<div class="callout">
+<p class="m-0"><%= @user_question %></p>
+<figcaption class="blockquote-footer mt-2 mb-0">
+    <em>You</em>
+  </figcaption>
+</div>
+<div class="callout-answer mt-3">
+<p class="m-0"><%= @answer %></p>
+<figcaption class="blockquote-footer mt-2 mb-0">
+    <em>Your coach</em>
+  </figcaption>
+</div>
+<p class="mt-3">
+<%= link_to "Ask a new question", ask_path, class: "mt-4" %>
+</p>

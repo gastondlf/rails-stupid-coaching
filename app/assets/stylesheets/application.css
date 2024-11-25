@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+.callout {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-left: 0.25rem solid grey;
+}
+
+.callout-answer {
+    padding: 10px;
+    background-color: #e2ffdb;
+    border-left: 0.25rem solid rgb(0, 70, 5);
+}
